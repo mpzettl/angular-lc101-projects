@@ -1,0 +1,20 @@
+* {
+    font-size: xx-large;
+}
+
+li {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    color: aqua;
+    text-align: center;
+}
+
+.movies :not(h1, h2, h3, h4, h5, h6, li, p) {
+    color: black;
+}
