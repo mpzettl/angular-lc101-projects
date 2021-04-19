@@ -1,0 +1,24 @@
+.col-3 {
+    float: left;
+    width: 33.33%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p.ridge {
+    border-style: ridge;
+    border-color: darkblue;
+}
+
+p.groove {
+    border-style: groove;
+    border-color: cadetblue;
+}
+
+p.favLinks {
+    margin-left: 50px;
+}

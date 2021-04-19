@@ -1,9 +1,12 @@
 h3 {
     color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
 }
 
 img {
-    max-width: 500px;
+    width: auto;
+    max-width: 300px;
 }
 
 .photos {

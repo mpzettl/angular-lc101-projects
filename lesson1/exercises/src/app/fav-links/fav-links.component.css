@@ -2,6 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     color: purple;
+    text-align: center;
 }
 
 .favLinks :is(h1, h2, h3, h4, h5, h6) {
@@ -10,4 +11,5 @@
 
 a.favLinks {
     font-style: italic;
+    margin-left: 50px;
 }
